@@ -7,12 +7,12 @@
     /* Background color */
     --main-background: #ffffff;
     --secondary-background: #f4f4fd;
-    --hero-background: #2e2f42;
-    --footer-background: #2e2f42;
+    --hero-background: #e66759;
+    --footer-background: #e66759;
     /* Other color */
-    --iris-color: #4d5ae5;
+    --iris-color: #760013;
     --border-color: #e7e9fc;
-    --ocean-color: #404bbf;
+    --ocean-color: #c10416;
 }
 
 body {
