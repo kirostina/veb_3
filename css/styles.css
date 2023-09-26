@@ -332,7 +332,7 @@ img {
 
 .address-item:hover,
 .address-item:focus {
-    color: #404bbf;
+    color: #c10416;
 }
 
 /**
@@ -1157,6 +1157,7 @@ img {
 
 
 .recipes-list {
+    padding-left: 25%;
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
@@ -1272,7 +1273,7 @@ img {
     position: absolute;
     width: 32px;
     height: 32px;
-    background: #fff;
+    background: #c10416;
     animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
@@ -1283,7 +1284,7 @@ img {
     display: block;
     width: 32px;
     height: 32px;
-    background: #fff;
+    background: #c10416;
 }
 
 .lds-heart div:before {
