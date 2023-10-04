@@ -1625,16 +1625,25 @@ td {
     background-color: var(--hero-background);
 }
 
-@media (max-width: 768px) {
+/* Для екранів шириною менше 768px (iPhone 12 Pro і інші смартфони) */
+@media only screen and (max-width: 767px) {
 
-    th,
-    td {
-        padding: 8px;
+    /* Приховуємо заголовок таблиці для вузьких екранів, якщо потрібно */
+    table th {
+        display: none;
     }
 
-    .view-btn,
-    .edit-btn,
-    .delete-btn {
-        padding: 3px 6px;
+    /* Змінюємо стиль рядків таблиці для кращого відображення на вузьких екранах */
+    table tr {
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Змінюємо стиль комірок таблиці для кращого відображення на вузьких екранах */
+    table td {
+        display: block;
+        padding: 10px;
     }
 }
